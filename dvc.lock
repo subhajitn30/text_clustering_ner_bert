@@ -1,0 +1,48 @@
+schema: '2.0'
+stages:
+  load_data:
+    cmd: python src/load_data.py --config=params.yaml
+    deps:
+    - path: data_given/fbportal_new.csv
+      md5: e211281635e5adb487f7b955ef229fce
+      size: 32730
+    - path: src/get_data.py
+      md5: 86a23d9b5c90b73dae81fb620151fc6e
+      size: 970
+    - path: src/load_data.py
+      md5: c12e412629d74df4b82e6e6d77fd861d
+      size: 1724
+    outs:
+    - path: data/raw/fbportal_new.csv
+      md5: 5c8e1aa8369795c1583925a57008b02f
+      size: 53411
+  embedd_data:
+    cmd: python src/data_embedding.py --config=params.yaml
+    deps:
+    - path: data/raw/fbportal_new.csv
+      md5: 5c8e1aa8369795c1583925a57008b02f
+      size: 53411
+    - path: src/data_embedding.py
+      md5: 799fa616e143679ae25721afcd527589
+      size: 950
+    outs:
+    - path: data/processed/fbportal_new.csv
+      md5: 6ec30de6b3d2dead5ce6fe163228eb0c
+      size: 9407515
+  train_and_cluster:
+    cmd:
+    - python src/train_and_clustering.py --config=params.yaml
+    deps:
+    - path: data/processed/fbportal_new.csv
+      md5: 6ec30de6b3d2dead5ce6fe163228eb0c
+      size: 9407515
+    - path: src/train_and_clustering.py
+      md5: 1fe29a0f35d736c0c188b4d92cf135e5
+      size: 4035
+    outs:
+    - path: ./data/output/fbportal_new.csv
+      md5: 99aa7711f97ef75a15d56f1b7165cada
+      size: 9412372
+    - path: report/scores.json
+      md5: d64471d259e4453077dd15d67a7d8c05
+      size: 937

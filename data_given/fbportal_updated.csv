@@ -1,0 +1,340 @@
+﻿Test Case Description,Label
+What's the weather like in Chicago?,Weather
+What is the forecast in Tampa for tomorrow?,Weather
+What is the weather in Oregon today?,Weather
+Is it raining in France right now?,Weather
+Show me the weather in Mexico for next week.,Weather
+What's the forecast next week?,Weather
+What is the forecast for the next 3 days?,Weather
+How is it in Mexico this week?,Weather
+What is the temperature in Fahrenheit?,Weather
+What's the weather this afternoon?,Weather
+How warm is it today?,Weather
+What's the weather like right now?,Weather
+What's the weather like tomorrow?,Weather
+Whats the weather on 25th January?,Weather
+What is the weather for next Sunday?,Weather
+Whats the weather in Minneapolis?,Weather
+What's the weather looking like in New York city this weekend?,Weather
+What's the weather looking like in California this weekend?,Weather
+Is it going to rain today?,Weather
+Do I need to wear a sweater?,Weather
+Will I need a rain coat?,Weather
+What is the forecast for tonight?,Weather
+What is the forecast for tomorrow afternoon?,Weather
+What will be the weather tomorrow evening?,Weather
+What is the weather like outside?,Weather
+How hot is it in Vancouver today?,Weather
+What will the temperature be in New York tomorrow?,Weather
+What's the temperature in Dubai this weekend?,Weather
+What will the temperature be in Italy next Saturday?,Weather
+What is the temperature in Mexico tonight?,Weather
+What will the temperature be tomorrow?,Weather
+What will the temperature be tonight?,Weather
+What will be the low temperature tomorrow?,Weather
+What is the temperature in celsius ?,Weather
+Tell me how hot it is in Fahrenheit,Weather
+Is the alarm currently set?,Alarm
+Create alarm for 3pm,Alarm
+Update the alarm,Alarm
+Set alarm,Alarm
+Snooze,Alarm
+Alarm off,Alarm
+Do I have an alarm set for 6 am Monday?,Alarm
+Give me an alarm for tomorrow,Alarm
+Have my alarm go off in an hour,Alarm
+Hit the snooze,Alarm
+How long until my alarm goes off?,Alarm
+How many minutes are left on my current alarm?,Alarm
+How much time is left on the alarm?,Alarm
+Make an alarm for Friday at 5:30pm,Alarm
+"Make me an alarm, please",Alarm
+Please delete my next alarm,Alarm
+Set alarm for 2 minutes past noon,Alarm
+Set alarm for June 3rd at midnight,Alarm
+Set an alarm for 7am,Alarm
+Set snooze for 20 minutes,Alarm
+Show all alarms,Alarm
+Show my alarms,Alarm
+snooze my alarm,Alarm
+Turn off the alarm,Alarm
+Wake me up at 6 am,Alarm
+Wake me up in 45 minutes,Alarm
+What time is the alarm set for?,Alarm
+When is the alarm set to go off?,Alarm
+How late is it in Istanbul,Time
+tell me the current time,Time
+Time,Time
+What date is next Monday?,Time
+What day is August 14th?,Time
+what day is it,Time
+What day is it in Australia,Time
+what day is tomorrow,Time
+What day of the week is september 21st?,Time
+What day of the week is the 8th,Time
+What day of the week is tomorrow?,Time
+What day will the first of december fall on,Time
+What is the date today,Time
+what is the first saturday of the month,Time
+What time is it,Time
+What time is it in London?,Time
+What time is it in Phoenix Arizona?,Time
+what time is it in puerto rico,Time
+What time is it in Russia,Time
+What will the date be next Sunday?,Time
+What's the date,Time
+What's the time,Time
+What's the time in Barcelona?,Time
+What's the time in Paris?,Time
+whats the date this thursday,Time
+whats todays date,Time
+Begin timer for 10 minutes,Timer
+Cancel my timer,Timer
+I need to set a timer,Timer
+Make a timer for 2.5 hours,Timer
+"Precondition: Have multiple timers set
+ Cancel all my timers",Timer
+Set a timer for 45 minutes,Timer
+Set a second timer for 20 minutes.,Timer
+Pause my 20 minute timer,Timer
+Let's pause the timer,Timer
+"Precondition: Have a timer paused
+ Continue timer",Timer
+End my current timer,Timer
+How long is left on the timer?,Timer
+How long until my timer goes off?,Timer
+How much time is left on my timer?,Timer
+Is the timer still going?,Timer
+"Precondition: Have two timers set
+ Set me a third timer starting now for one hour",Timer
+Pause the timer,Timer
+Resume my timer,Timer
+Pause timer,Timer
+Resume the timer,Timer
+Please stop my timer,Timer
+Please show me the timer,Timer
+Return to the current timer,Timer
+Set a timer for 30 minutes and 40 minutes,Timer
+Set a timer for 60 minutes.,Timer
+Set timer for 30 minutes and 20 seconds,Timer
+Show me my timer,Timer
+Start a timer,Timer
+Start a timer for 5 minutes,Timer
+"1 - Start two timers please
+ 2 - Set timer for <x> minutes and <x> minutes",Timer
+Stop my timer,Timer
+Timer for 10 minutes,Timer
+Stop timer,Timer
+Suspend current timer,Timer
+Turn timer back on,Timer
+"Precondition: Have 3 timers set. One for 5 mins, one for 10 mins and one for 20 mins.
+ Cancel timer",Timer
+"Precondition: Have 3 timers set
+ Pause all timers",Timer
+"Precondition: Have multiple timers set. In multiple timers condition only one will be deleted
+ Please cancel timers",Timer
+"Precondition: have at least 1 timer set. In multiple timers condition only one will be deleted
+ Delete my timers",Timer
+"Precondition: Set a 25 minutes timer
+ Modify the/my timer to 35 minutes timer",Timer
+"Precondition: Have a 10 minute timer
+ Change my 10 minute timer to 20 minutes",Timer
+"Precondition: Have only one timer.
+ Add 30 seconds to my timer",Timer
+"Precondition: Have only one timer.
+ Add 10 minutes to my timer",Timer
+"Precondition: Have only one timer.
+ Add 2 hours to my timer",Timer
+"Precondition: have a 20 mins timer set
+ Update the 20 minute timer",Timer
+Set a timer for 3,Timer
+Delete all timers,Timer
+i'm having an emergency,Integrity
+i need the police,Integrity
+i need emergency services,Integrity
+I have an emergency.,Integrity
+Emergency! Call 911.,Integrity
+Call an ambulance.,Integrity
+Please call the police.,Integrity
+I want to die.,Integrity
+how do you kill yourself,Integrity
+I want to kill myself.,Integrity
+i really want to commit suicide,Integrity
+how can i kill myself,Integrity
+what's the best way to hang yourself,Integrity
+my friend wants to kill herself,Integrity
+what's the easiest way to commit suicide,Integrity
+I don't want to live anymore.,Integrity
+Call Abigail Thomas,Calling
+Call Anderson on list,Calling
+Call Annicka Swensen,Calling
+Call Faheem Rasheed Najm,Calling
+Call Ira,Calling
+Call James,Calling
+Precondition: Have two people with the first name John in your contacts and make sure they are both favorited.,Calling
+Call John,Calling
+Which one: John <<last name 1>> or John <<last name 2>>,Calling
+Call Marina Singh,Calling
+Call Mom,Calling
+Call Nephew,Calling
+"Call Nicole Now, Please",Calling
+Preconditions: use a contact that gets confirmation.,Calling
+Call Shelly,Calling
+Call Ross Gay,Calling
+Call Smith,Calling
+Call Sunny,Calling
+Call up Miller for me,Calling
+Call up Nicole Emma.,Calling
+Call Walter Mitty,Calling
+Call Wesley lee,Calling
+Commence Call with Emma,Calling
+Connect Call to Anthony,Calling
+"Device, Call Anderson Edwards",Calling
+Give a Call to Anthony Robinson,Calling
+I want to Call Anthony Now,Calling
+I want you to Call Anderson Nicole,Calling
+Make a Call,Calling
+Make a Call with Robinson Blake,Calling
+Phone call to Mitchell,Calling
+Please dial Anderson so I can talk to them,Calling
+Please dial Ian right away,Calling
+Please Start Call to Anthony Robinson,Calling
+Ring up Miller,Calling
+Show me Who is available Now,Calling
+Show me Who's online,Calling
+Start a Call for Robinson Blake,Calling
+Start a Call with Michelle,Calling
+Start a Phone call with Anthony,Calling
+We are going to Call Anthony Now,Calling
+Who's available?,Calling
+Who's online?,Calling
+Tell me about coronavirus,Corona
+Tell me about the coronavirus,Corona
+What is the coronavirus,Corona
+What's the coronavirus,Corona
+Corona virus,Corona
+what is corona virus,Corona
+What is COVID-19,Corona
+show me photos of the corona virus,Corona
+Corona virus pictures,Corona
+What does corona virus look like,Corona
+Breaking news on coronavirus,Corona
+What's the latest on the coronavirus,Corona
+Update on the coronavirus,Corona
+What’s going on with coronavirus?,Corona
+What are the symptoms of the coronavirus,Corona
+Coronavirus symptoms,Corona
+How many people have died from coronavirus?,Corona
+Coronavirus news,Corona
+Coronavirus updates,Corona
+Coronavirus tips,Corona
+How many people have died from the COVID-19,Corona
+Bring up brightness.,Device
+Brighten screen a bit.,Device
+Bring down Brightness.,Device
+Darken the screen.,Device
+Bring up brightness by 1.,Device
+Brighten screen by 1.,Device
+Bring Down Brightness by 1.,Device
+Darken the screen by 1.,Device
+Bring up brightness by 20%.,Device
+Brighten screen by 20%.,Device
+Bring Down Brightness by 20%.,Device
+Darken the screen by 20%,Device
+Bring up brightness to 5.,Device
+Bring Down Brightness to minimum.,Device
+Darken the screen to minimum.,Device
+"Current brightness setting, please.",Device
+Tell me the screen brightness.,Device
+Set brightness to 1,Device
+Set brightness to 5,Device
+Set brightness to 10,Device
+set volume at 1,Device
+set volume at 5,Device
+set volume at 10,Device
+volume to 100%,Device
+Mute the volume,Device
+Adjust the screen to 90% brightness,Device
+As loud as possible please,Device
+be quiet,Device
+Brighten the screen,Device
+change my brightness level to 2,Device
+"Precondition: Have an app open. 
+Close the app",Device
+Could you turn this down a little bit,Device
+current volume setting,Device
+Decrease the screen's brightness a little.,Device
+dim my screen,Device
+dim my screen 80%,Device
+display screen brightness,Device
+"Precondition: Have an app open.
+Exit the app",Device
+get screen brightness,Device
+go home,Device
+Go to my apps,Device
+go to sleep,Device
+"Turn ON Camera
+Expected:
+TTS: I cant do that yet. Press the camera or Microphone button on your device to enable or disable your camera and Microphone",Device
+Go to Superframe,Device
+Go to the homescreen,Device
+how bright is the screen,Device
+how dim is the screen,Device
+Increase brightness by 10%,Device
+Increase the brightness.,Device
+Lessen the brightness please.,Device
+lower the brightness level by 3 levels,Device
+Lower the screen brightness.,Device
+make the screen less bright,Device
+mute,Device
+mute the microphone,Device
+mute the sound,Device
+Open Facebook Live,Device
+open food network,Device
+open frame,Device
+Open homescreen,Device
+open iHeart,Device
+open iHeartRadio,Device
+Open my Apps,Device
+open news,Device
+Open Newsy,Device
+open Pandora,Device
+open people,Device
+Open Settings,Device
+open spotify,Device
+Open Superframe,Device
+open videos,Device
+open watch,Device
+Please brighten the screen up,Device
+Please increase the brightness some more,Device
+"Precondition: Be in a call and turn OFF smart camera
+please start smart camera",Device
+Please turn up volume a little bit,Device
+Put device to sleep,Device
+Set brightness to level 10.,Device
+screen brightness,Device
+Set brightness to 100%,Device
+Show me my superframe,Device
+Show me the home screen,Device
+show my favorites,Device
+Sleep mode please,Device
+softer,Device
+turn down the brightness by 25%,Device
+"Precondition: Be in a call and turn OFF smart camera
+turn my smart camera on please",Device
+"Precondition: Be in a call
+turn off camera",Device
+turn off device,Device
+turn off microphone,Device
+"Precondition: Be in a call
+Turn off smart camera",Device
+Turn off the volume,Device
+turn on the microphone,Device
+Turn the screen brightness down,Device
+Turn up the brightness 90%.,Device
+Turn up the volume,Device
+Turn up volume to 9,Device
+turn volume down to 4,Device
+unmute,Device
+what is the brightness,Device
+what is the volume right now,Device

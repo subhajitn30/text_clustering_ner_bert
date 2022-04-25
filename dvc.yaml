@@ -1,0 +1,34 @@
+stages:
+  load_data:
+    cmd: python src/load_data.py --config=params.yaml
+    deps:
+    - src/get_data.py
+    - src/load_data.py
+    - data_given/fbportal_new.csv
+    outs:
+    - data/raw/fbportal_new.csv
+
+  embedd_data:
+    cmd: python src/data_embedding.py --config=params.yaml
+    deps:
+    - src/data_embedding.py
+    - data/raw/fbportal_new.csv
+    outs:
+    - data/processed/fbportal_new.csv
+
+  train_and_cluster:
+    cmd: [python src/train_and_clustering.py --config=params.yaml]
+    deps:
+    - data/processed/fbportal_new.csv
+    - src/train_and_clustering.py
+    outs:
+    - ./data/output/fbportal_new.csv
+    metrics:
+    - report/scores.json:
+        cache: false
+    
+    # plots:
+    # - report/plot.json:
+    #     x: range_n_clusters
+    #     y: score
+        

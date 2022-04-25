@@ -1,0 +1,36 @@
+{
+    "silhouette": [
+        {
+            "number_of_cluster": 5,
+            "silhouette_score": 0.07675704278795639
+        },
+        {
+            "number_of_cluster": 7,
+            "silhouette_score": 0.08848123786295824
+        },
+        {
+            "number_of_cluster": 9,
+            "silhouette_score": 0.1152084070269141
+        },
+        {
+            "number_of_cluster": 11,
+            "silhouette_score": 0.12261018390575694
+        },
+        {
+            "number_of_cluster": 13,
+            "silhouette_score": 0.12303870058234598
+        },
+        {
+            "number_of_cluster": 15,
+            "silhouette_score": 0.1225942716338777
+        },
+        {
+            "number_of_cluster": 17,
+            "silhouette_score": 0.13119625875743482
+        },
+        {
+            "number_of_cluster": 19,
+            "silhouette_score": 0.1413648806554442
+        }
+    ]
+}

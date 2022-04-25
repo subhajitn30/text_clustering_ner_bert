@@ -1,0 +1,21 @@
+base:
+  project: fb_portal_testsuit
+
+data_source:
+  s3_source: data_given/fbportal_new.csv
+
+load_data: 
+  raw_dataset_csv: data/raw/fbportal_new.csv
+
+process_data:
+  processed_dataset_csv: data/processed/fbportal_new.csv
+
+output_data:
+  output_dataset_csv: ./data/output/fbportal_new.csv
+
+model_dir: saved_models
+
+
+reports: 
+  scores: report/scores.json
+  #silhouette: report/silhouette.json
